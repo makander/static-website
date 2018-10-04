@@ -16,29 +16,32 @@ header {
     margin-left: 15px;
 }
 
-.nav {
-    display: flex;
-    align-items: center;
-    margin-right: 30px;
-}
 
-
-.nav__item {
-    display: inline-block;
-    padding:15px;
-
+nav {
+    height: 100%;
 }
 
 .nav__items {
     background: yellow;
     border: 1px solid black;
+    margin-right: 15px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+    padding: 15px;
+}
 
+
+.nav__item {
+    display: inline-block;
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
-  }
+}
 
 section {
     width: 100%;
@@ -48,16 +51,14 @@ section {
     align-content: center;
 }
 
-footer {
-    background: green;
-    height: 60px;
-}
 
 .footer__nav__items {
     display: flex;
     background: yellow; 
     border: 1px solid black;
     justify-content: space-around;
+    height: 120px;
+    align-items: center;
 }
 
 .footer__nav__item {
