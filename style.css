@@ -1,4 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .main {
     display: flex; 
-    flex-wrap: wrap;
+    flex-wrap: no-wrap;
+}
+
+.nav {
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav__items {
+    background: yellow;
+}
+
+.nav__item {
+    display:inline-block;
+}
+
+.header {
+    background: green;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    background: yellow;
+}
+
+.footer {
+    background: red;
+}
+
+section {
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    background: pinK;
 }
