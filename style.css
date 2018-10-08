@@ -45,22 +45,25 @@ section {
     justify-content: center; 
     flex-flow: column;
     align-items:center;
+   
 }
 
 section > h1 {
-    text-align: center;
     font-size: 32px;
     font-weight: lighter;
 }
 
 section > p {
-    justify-content: center;
+    /* align-content: center;
+    justify-content: center; */
     font-size: 18px;
     font-weight: lighter;
+   
 }
 
 
 section {
+    text-align: center;
     width: 100%;  
     height: 300px;
 }
@@ -79,7 +82,7 @@ footer {
 
 .bottom-menu-content > li {
     list-style: none;
-    padding: 25px;  
+    padding:  0 25px;  
 }
 
 .bottom-menu-content a {
