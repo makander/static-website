@@ -81,3 +81,9 @@ footer {
     list-style: none;
     padding: 25px;  
 }
+
+.bottom-menu-content a {
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+}
