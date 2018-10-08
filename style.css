@@ -95,3 +95,6 @@ main {
     background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
+a:hover {
+    background: #C4F6D1;
+}
