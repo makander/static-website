@@ -46,6 +46,16 @@ header {
     margin-left: 30px;
 }
 
+
+.Hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 67px;
+    text-align: center;
+}
+
 section {
     width: 100%;
     display: flex;
@@ -121,5 +131,13 @@ main {
 
 a:hover {
     background: #C4F6D1;
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    .main {
+      width: 960px;
+      margin: 0 auto;
+    }
 }
 
