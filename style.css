@@ -17,9 +17,11 @@ h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
-.logo {
-    width: 20px;
-    height: 20px;
+.logo img{
+   /*  position: absolute; */
+    padding: 15px;
+    width: 150px;
+    height: 150px;
     z-index: 0;
 }
 
@@ -28,7 +30,7 @@ header {
     width: 100%;
     justify-content: space-around;
     background-color: pink;
-    height: 65px;
+    height: 100px;
     align-items: center;
     position: fixed;
     z-index: 1000;
@@ -68,6 +70,10 @@ main {
     font-size: 67px;
     justify-content: center;
     z-index: 1;
+}
+
+video {
+    width: 100%;
 }
 
 section {
@@ -126,7 +132,7 @@ section > h2 {
 
 .Contact {
     padding-bottom: 30px;
-    margin-bottom:
+    margin-bottom: 0;
 }
 
 footer {
@@ -158,12 +164,21 @@ main {
 
 a:hover {
     background: #C4F6D1;
+    color: black;
+    font-weight: bolder;
+}
+
+a:visited { 
+    color: black;
 }
 
 .service-item-image {
     align-items: center;
 }
 
+a:link {
+    color: black;
+}
 
 
 @media only screen and (max-width: 700px) {
@@ -210,14 +225,15 @@ a:hover {
         padding: 0;
     }
     
-    .logo {
-        display: none;
-
-    }
+   /*  .logo {
+        
+        display: block;
+       
+    } */
 
     .service-item > img {
         width: 100%;
-        /* height: auto; */
+       
     }
 
     embed {
@@ -231,15 +247,16 @@ a:hover {
     }
 
     .top-menu-content a {
-        text-decoration: none;
         text-align: center;
-        width: 100%;
+       
+        
     }
     
     .top-menu-content > li {
         list-style: none;
         display: block;
-        width: 100%
+        width: 100%;
+        
     }
 
     .top-menu-content {
@@ -248,18 +265,31 @@ a:hover {
     }
 
     .Hero {
-        padding-top: 300px;
+        padding-top: 180px;
         padding-bottom: 80px;
     }
 
-    .hero-video-container {
+     video {
         display: none;
     }
 
+    .Hero img {
+        width: 100%;
+    }
+
+
     .Hero h1 {
     font-size: 36px;
-    position: relative;
+    position: absolute;
     }
+}
+
+@media only screen and (min-width: 700px) {
+    .Hero img {
+        display: none;
+    }
+}
+
 
 
 @media only screen and (min-width: 1200px) {
