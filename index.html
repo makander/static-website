@@ -12,10 +12,11 @@
 
     <header role="banner">
         <div class="logo">
-            <img src="./image/logo_transparent.png" alt="">
+            <a href="#top">
+                <img src="./image/logo_transparent.png" alt="company logo"></a>
         </div>
         <nav class="top-menu" role="navigation">
-                <ul class="top-menu-content">
+                <ul class="top-menu-content" id="welcome">
                     <li><a href="#aboutus" tabindex="1">About Us</a></li>
                     <li><a href="#services" tabindex="2">Services</a></li>
                     <li><a href="#ref" tabindex="3">References</a></li>
@@ -27,7 +28,7 @@
     <main role="main">
        
         <section class="Hero">
-                <h1 tabindex="5"> Welcome to Hack Attack.</h1>
+                <h1 tabindex="5">Welcome to Hack Attack.</h1>
                     <div aria-hidden="true" class="hero-video-container">
                         <video autoplay loop muted>
                         <source src="./media/Technology - 17077.mp4" type="video/mp4">
@@ -42,7 +43,7 @@
 
         <section class="About us" id="aboutus">
         <h2 tabindex="7">About us.</h1>
-        <p tabindex="8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quae placeat ipsa a? Sit voluptatibus reiciendis molestias facere sunt, illum quasi voluptatum eos quaerat, qui sequi alias adipisci. Sed, quis.</p>
+        <p tabindex="8">Hack Attack is a world renowned IT-security firm. We have offered our services for over a decade and our clients range from the private sector to law enforcment and military.</p>
         </section>
 
         <section class="Services" id="services">
@@ -90,23 +91,13 @@
         <section class="Contact" id="contact" tabindex="25">
         <h2 tabindex="26">Contact.</h2>
         <p tabindex="27">We can be reached at 
-            <a href="mailto:someone@yoursite.com">info@hackattack.com</a> 
-            or on <a href="tel:+641235678910">+641235678910</a>
+            <a tabindex="28" href="mailto:someone@yoursite.com">info@hackattack.com</a> 
+            or on <a tabindex="29" href="tel:+641235678910">+641235678910</a>
             We are also available on freenode: #hackattack. 
             We're a mobile company and change location on a regular basis and therefore have no physical address.
         </p>
         </section>
 
     </main>
-<!-- 
-    <footer>
-       <nav class="bottom-menu">
-           <ul class="bottom-menu-content">
-            <li><a href="#">Copyright</a></li>
-            <li><a href="#contact">Contact</a></li>
-           </ul>
-       </nav>
-    </footer>
-   -->
 </body>
 </html>
