@@ -10,23 +10,23 @@
 </head>
 <body>
 
-    <header>
+    <header role="banner">
         <div class="logo">Logo</div>
-        <nav class="top-menu">
+        <nav class="top-menu" role="navigation">
                 <ul class="top-menu-content">
-                    <li><a href="#aboutus">About Us</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#ref">References</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#aboutus" tabindex="1">About Us</a></li>
+                    <li><a href="#services" tabindex="2">Services</a></li>
+                    <li><a href="#ref" tabindex="3">References</a></li>
+                    <li><a href="#contact" tabindex="4">Contact</a></li>
                 </ul>
         </nav>
     </header>
 
-    <main>
+    <main role="main">
        
         <section class="Hero">
-                <h1> Welcome to Hack Attack.</h1>
-                    <div class="hero-video-container">
+                <h1 tabindex="5"> Welcome to Hack Attack.</h1>
+                    <div aria-hidden="true" class="hero-video-container">
                         <video autoplay loop muted>
                         <source src="Technology - 17077.mp4" type="video/mp4">
                         <p>Your browser doesn't support HTML5 video. Here is
@@ -39,55 +39,55 @@
         </section>
 
         <section class="About us" id="aboutus">
-        <h1>About us.</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quae placeat ipsa a? Sit voluptatibus reiciendis molestias facere sunt, illum quasi voluptatum eos quaerat, qui sequi alias adipisci. Sed, quis.</p>
+        <h2 tabindex="7">About us.</h1>
+        <p tabindex="8">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id quae placeat ipsa a? Sit voluptatibus reiciendis molestias facere sunt, illum quasi voluptatum eos quaerat, qui sequi alias adipisci. Sed, quis.</p>
         </section>
 
         <section class="Services" id="services">
-        <h1>Services.</h1>
+        <h2 tabindex="9">Services.</h1>
         <div class="service-container">
            
-            <div class="service-item hacking">
-                <img src="image/hacking.jpeg" alt="">
-                <h2>Hacking.</h2>
-                <p>We offer world class pentesting and can isolate and mitigare attacks on your company assets.</p>
+            <div class="service-item hacking" tabindex="9">
+                <img src="image/hacking.jpeg" alt="serveral of displays with code">
+                <h3 tabindex="10">Hacking.</h3>
+                <p tabindex="11">We offer world class pentesting and can isolate and mitigare attacks on your company assets.</p>
             </div>
 
 
-            <div class="service-item consulting">
-                <img src="image/consulting.jpeg" alt="">
-                <h2>Consulting.</h2>
-                <p>Hire us and have our consultants take a look at your IT-infrastucture to see if any improvements can be made both economically and perfomance wise.</p>
+            <div class="service-item consulting" tabindex="12">
+                <img src="image/consulting.jpeg" alt="people working together on a laptop">
+                <h3 tabindex="13">Consulting.</h3>
+                <p tabindex="14">Hire us and have our consultants take a look at your IT-infrastucture to see if any improvements can be made both economically and perfomance wise.</p>
             </div>
 
-            <div class="service-item support">
-                    <img src="image/support2.jpeg" alt="">
-                    <h2>Support.</h2>
-                    <p>We deliver first class support for your company servers, routers, switches, vending machines and data clusters. We at Hack Attack make complicated things easy and we make sure that you can focus on the important part of your businesses. </p>
+            <div class="service-item support" tabindex="15">
+                    <img src="image/support2.jpeg" alt="computer with a stethoscope">
+                    <h3 tabindex="16">Support.</h3>
+                    <p tabindex="17">We deliver first class support for your company servers, routers, switches, vending machines and data clusters. We at Hack Attack make complicated things easy and we make sure that you can focus on the important part of your businesses. </p>
                     
                 </div>
         
-            <div class="service-item cloud">
-                <img src="image/cloud.jpeg" alt="">
-                <h2>Cloud.</h2>
-                <p>The choice for most companies today is keep their equipment inhouse or move it into the cloud. We have extensive experience in delivering cloud solutions such as; O365, Okta, G-Suite and many other vendors.  </p>
+            <div class="service-item cloud" tabindex="18">
+                <img src="image/cloud.jpeg" alt="cardboard cutout of a cloud held against the sky">
+                <h3 tabindex="19">Cloud.</h3>
+                <p tabindex="20">The choice for most companies today is keep their equipment inhouse or move it into the cloud. We have extensive experience in delivering cloud solutions such as; O365, Okta, G-Suite and many other vendors.  </p>
             </div>
 
         </div>   
         </section>
 
-        <section class="Resources" id="ref">
-        <h1>Resources.</h1>
-        <p>We have multiple references and certifications. They can all be viewed here.
+        <section class="Resources" id="ref" tabindex="21">
+        <h2 tabindex="22">Resources.</h2>
+        <p tabindex="23">We have multiple references and certifications. They can all be viewed here.
         </p>
        
-            <embed src="https://gnupg.org/documentation/manuals/gnupg.pdf" width="600" height="500" alt="pdf">
+            <embed tabindex="24" src="https://gnupg.org/documentation/manuals/gnupg.pdf" width="600" height="500" alt="pdf">
 
         </section>
 
-        <section class="Contact" id="contact">
-        <h1>Contact.</h1>
-        <p>We can be reached at info@hackattack.com 
+        <section class="Contact" id="contact" tabindex="25">
+        <h2 tabindex="26">Contact.</h2>
+        <p tabindex="27">We can be reached at info@hackattack.com 
             or on this phone nr:
             We're on this channel on freenode: #hackattack 
             We're a mobile company and change location on a regular basis and therefore have no physical address.
