@@ -17,6 +17,12 @@ h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
+.logo {
+    width: 20px;
+    height: 20px;
+    z-index: 0;
+}
+
 header {
     display: flex;
     width: 100%;
@@ -118,6 +124,10 @@ section > h2 {
     margin-bottom: 15px;
 }
 
+.Contact {
+    padding-bottom: 30px;
+    margin-bottom:
+}
 
 footer {
     display: flex;
@@ -238,30 +248,19 @@ a:hover {
     }
 
     .Hero {
+        padding-top: 300px;
+        padding-bottom: 80px;
+    }
+
+    .hero-video-container {
         display: none;
     }
 
-    .Hero-Responsive {
-        padding-top: 250px;
-        padding-bottom: 120px;
+    .Hero h1 {
+    font-size: 36px;
+    position: relative;
     }
 
-    .Hero-Responsive h1 {
-        margin: 0 15px;
-        font-size: 36px;
-    }
-
-}
-
-@media only screen and (min-width: 701px) {
-    .Hero-Responsive h1 {
-        display: none;
-    }
-
-    p {
-        width: 70ch;
-    }
-}
 
 @media only screen and (min-width: 1200px) {
     .Hero-Responsive h1 {
