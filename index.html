@@ -27,7 +27,7 @@
 
     <main role="main">
        
-        <section class="Hero">
+        <section role="region" class="Hero">
                 <h1 tabindex="5">Welcome to Hack Attack.</h1>
                     <div aria-hidden="true" class="hero-video-container">
                         <video autoplay loop muted>
@@ -41,12 +41,12 @@
                     
         </section>
 
-        <section class="About us" id="aboutus">
+        <section role="region" class="About us" id="aboutus">
         <h2 tabindex="7">About us.</h1>
         <p tabindex="8">Hack Attack is a world renowned IT-security firm. We have offered our services for over a decade and our clients range from the private sector to law enforcment and military.</p>
         </section>
 
-        <section class="Services" id="services">
+        <section  role="region" class="Services" id="services">
         <h2 tabindex="9">Services.</h1>
         <div class="service-container">
            
@@ -79,20 +79,19 @@
         </div>   
         </section>
 
-        <section class="Resources" id="ref" tabindex="21">
+        <section role="region" class="Resources" id="ref" tabindex="21">
         <h2 tabindex="22">Resources.</h2>
-        <p tabindex="23">We have multiple references and certifications. They can all be viewed here.
-        </p>
-       
-            <embed tabindex="24" src="https://gnupg.org/documentation/manuals/gnupg.pdf" width="600" height="500" alt="pdf">
-
+        <p tabindex="23">We have multiple references and certifications. They can all be viewed here.</p>
+        <div></div>
+        <embed tabindex="24" src="https://gnupg.org/documentation/manuals/gnupg.pdf" width="500" height="600" alt="pdf" align="center">
+        <a tabindex="25"href="https://gnupg.org/documentation/manuals/gnupg.pdf" alt="Certificate Download">Download Certificate</a>
         </section>
 
-        <section class="Contact" id="contact" tabindex="25">
-        <h2 tabindex="26">Contact.</h2>
-        <p tabindex="27">We can be reached at 
-            <a tabindex="28" href="mailto:someone@yoursite.com">info@hackattack.com</a> 
-            or on <a tabindex="29" href="tel:+641235678910">+641235678910</a>
+        <section role="region" class="Contact" id="contact" tabindex="26">
+        <h2 tabindex="27">Contact.</h2>
+        <p tabindex="28">We can be reached at 
+            <a tabindex="29" href="mailto:someone@yoursite.com">info@hackattack.com</a> 
+            or on <a tabindex="30" href="tel:+641235678910">+641235678910</a>
             We are also available on freenode: #hackattack. 
             We're a mobile company and change location on a regular basis and therefore have no physical address.
         </p>
