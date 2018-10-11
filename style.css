@@ -253,4 +253,9 @@ a:link {
         width: 80ch;
         padding: 0 100px; 
     }
+
+    .Resources > p {
+        width: 75ch;
+        padding-bottom: 60px;
+    }
 }
