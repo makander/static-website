@@ -1,2 +1,1 @@
-# 01-static-website-makander
-01-static-website-makander created by GitHub Classroom
+Site can be found at http://nilsmakander.chas.academy/01-static-website-makander-master/
